@@ -573,7 +573,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
-				WARNING_CFLAGS = "-wall";
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
 		};
@@ -610,6 +610,7 @@
 				);
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = otx;
+				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
 		};
