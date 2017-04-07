@@ -20,6 +20,7 @@
 #import "SysUtils.h"
 #import "UserDefaultKeys.h"
 #import "X86Processor.h"
+#import "ObjcTypes.h"
 
 @implementation Exe32Processor
 

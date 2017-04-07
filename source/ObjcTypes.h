@@ -344,9 +344,9 @@ typedef struct {
 } objc2_32_class_t;
 
 
-extern void swap_objc2_32_class(objc2_32_class_t *cls);
-extern void swap_objc2_32_method(objc2_32_method_t *method);
-extern void swap_objc2_32_ivar(objc2_32_ivar_t* ivar);
+void swap_objc2_32_class(objc2_32_class_t *cls);
+void swap_objc2_32_method(objc2_32_method_t *method);
+void swap_objc2_32_ivar(objc2_32_ivar_t* ivar);
 
 
 #pragma mark -
@@ -449,7 +449,7 @@ typedef struct {
     uint64_t data;          // objc2_class_rw_t *
 } objc2_64_class_t;
 
-extern void swap_objc2_64_class(objc2_64_class_t *cls);
-extern void swap_objc2_64_method(objc2_64_method_t *method);
-extern void swap_objc2_64_ivar(objc2_64_ivar_t *ivar);
+void swap_objc2_64_class(objc2_64_class_t *cls);
+void swap_objc2_64_method(objc2_64_method_t *method);
+void swap_objc2_64_ivar(objc2_64_ivar_t *ivar);
 

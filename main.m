@@ -28,11 +28,9 @@ int main(
 
 #ifdef OTX_CLI
     @autoreleasepool {
-        CLIController*      controller  =
-        [[CLIController alloc] initWithArgs: argv count: argc];
+        CLIController *controller = [[[CLIController alloc] initWithArgs: argv count: argc] autorelease];
 
-        if (controller)
-        {
+        if (controller) {
             [controller processFile];
             result  = noErr;
         }
